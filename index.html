@@ -8,13 +8,12 @@
         body {
             background-color: #f5f1e9;
             color: black;
-            font-family: Times, serif; /* Change this to your preferred font, e.g., Arial, sans-serif */
+            font-family: Times, serif;
             font-size: 19px;
             line-height: 1.6;
             max-width: 700px;
-            margin-left: 250px;
-            margin-right: auto;
-            padding-top: 70px;
+            margin: 0 auto;
+            padding: 70px 20px 40px 20px;
         }
         h1 {
             font-weight: bold;
@@ -26,28 +25,40 @@
             margin-top: 30px;
         }
         a {
-            color: black; /* Removes blue color from hyperlinks */
-            text-decoration: none; /* Removes underline */
+            color: black;
+            text-decoration: none;
         }
         a:hover {
-            text-decoration: underline; /* Keeps underline on hover */
+            text-decoration: underline;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                font-size: 17px;
+                padding: 50px 15px 30px 15px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 19px;
+            }
         }
     </style>
-    <!-- Uncomment and replace with your desired Google Font if needed -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <h1><a href="https://x.com/_sonith" target="_blank">Sonith Sunku</a></h1>
-    <p></p>
+
     <h2>Basics:</h2>
     <ul>
         <li>Grew up in Northern Virginia</li>
-        <li>Studied CS & Finance at UVA</li>
-        <li>Living in San chicken</li>
-        <ul>
-            <li>NYC next</li>
-        </ul>
-        
+        <li>Studied at UVA for some time</li>
+        <li>Living in San Francisco, CA
+            <ul>
+                <li>NYC next</li>
+            </ul>
+        </li>
     </ul>
 
     <h2>Endeavors:</h2>
@@ -71,12 +82,12 @@
 
     <h2>Random:</h2>
     <ul>
-        <li>I’ve averaged a flight a week this year 
+        <li>I’ve averaged a flight a week this year
             <ul>
                 <li>I took 10 flights in April — this is the most I’ve ever traveled</li>
             </ul>
-        </li> 
-        <li>X is one of the most useful apps I have
+        </li>
+        <li>X is one of the most useful apps I have</li>
         <li>Everything is a built skill
             <ul>
                 <li>Communication is the most important</li>
@@ -92,7 +103,7 @@
                 <li>True luck still exists</li>
             </ul>
         </li>
-        <li>I love meeting new people, ideally in person. The city doesn’t matter. 
+        <li>I love meeting new people, ideally in person. The city doesn’t matter.
             <ul>
                 <li>Email and X work well. A warm intro works best.</li>
             </ul>
