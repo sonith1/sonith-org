@@ -6,6 +6,54 @@
     <title>Sonith Sunku</title>
     <style>
         body {
+    background-color: #f5f1e9;
+    color: black;
+    font-family: Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: left;
+    max-width: 600px;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: left;     
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;     /* removes underline */
+    color: inherit;            /* makes link same color as surrounding text */
+}
+
+a.subtle-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #999;  /* subtle grey underline */
+    padding-bottom: 2px;
+}
+
+a.subtle-link:hover {
+    opacity: 0.85;  /* optional subtle hover effect */
+}
+
+
+        /* body {
             background-color: #f5f1e9;
             color: black;
             font-family: Times, serif;
@@ -17,7 +65,7 @@
         }
         h1 {
             font-weight: bold;
-            font-size: 37px;
+            font-size: 27px;
         }
         h2 {
             font-weight: bold;
@@ -35,7 +83,7 @@
         /* Underline only Endeavors section links */
         .endeavors a {
             text-decoration: underline;
-        }
+        } */
 
         /* Mobile responsiveness */
         @media (max-width: 600px) {
@@ -53,9 +101,43 @@
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1><a href="https://x.com/_sonith" target="_blank">Sonith Sunku</a></h1>
+
+        <p>I live in California.</p>
+
+        <p>I help run <a class="subtle-link" href="https://zfellows.com" target="_blank">Z Fellows</a> and previously joined <a class="subtle-link" href="https://thecannonproject.com" target="_blank">TCP</a>.</p>
+
+        <p>Recently, I started <a class="subtle-link" href="https://yesterdayy.com" target="_blank">Yesterday Media</a>. We interview individuals across industries, focused on their childhood to the present day. Much of what we record hasn't been shared publicly.</p>
+
+
+        <p>Episodes release weekly across platforms, alongside a written biography on each guest.</p>
+
+        <hr>
+
+        <p>Essays | Publishings I Like | Thoughts</p>
+    </div>
+</body>
+
+<!-- <body>
     <h1><a href="https://x.com/_sonith" target="_blank">Sonith Sunku</a></h1>
 
-    <h2>Basics:</h2>
+
+        <p>I live in California.</p>
+
+        <p>I help run Z Fellows and previously joined TCP.</p>
+
+        <p>Recently, I started Yesterday Media. We interview individuals across industries, focused on their story from childhood to the present day. 
+            Much of what we record hasn't been shared publicly.</p>
+
+        <p>Episodes release weekly across platforms, accompanied by a written biography on each guest.</p>
+
+         <hr>
+
+         <p>Essays | Publishings I Like | Random Thoughts</p>
+     -->
+    
+    <!-- <h2>Basics:</h2>
     <ul>
         <li>Grew up in Northern Virginia</li>
         <li>Studied at UVA</li>
@@ -64,9 +146,9 @@
                 <li>NYC next</li>
             </ul>
         </li>
-    </ul>
+    </ul> -->
 
-    <h2>Endeavors:</h2>
+    <!-- <h2>Endeavors:</h2>
     <div class="endeavors">
         <ul>
             <li><a href="https://zfellows.com" target="_blank">Z Fellows</a></li>
@@ -123,6 +205,6 @@
                 <li>Email and X work well. A warm intro works best.</li>
             </ul>
         </li>
-    </ul>
-</body>
+    </ul> -->
+<!-- </body> -->
 </html>
