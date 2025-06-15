@@ -22,6 +22,20 @@ body {
     text-align: left;         /* left-align the content inside */
 }
 
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+.timestamp {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+
+
 h1 {
     text-align: left;    
     font-weight: bold;
@@ -114,7 +128,11 @@ a.subtle-link:hover {
 </head>
 <body>
         <div class="container">
-        <h1>Why</h1>
+        <div class="title-row">
+            <h1>Why</h1>
+              <span class="timestamp">June 15, 2025 – 4:43 PM</span>
+        </div>
+
         <a href="index.html" class="back-button">Home</a>
         <div id="essay-container">Loading essay...</div>
     </div>
