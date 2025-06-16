@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonith Sunku</title>
+    <style>
+        
+
+body {
+    background-color: #f5f1e9;
+    color: black;
+    font-family: Times, serif;
+    margin: 0;
+    padding: 60px 20px 0 20px;
+    display: flex;
+    justify-content: center; /* center the container horizontally */
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: left;         /* left-align the content inside */
+}
+
+
+h1 {
+    text-align: left;    
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: left;     
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;     /* removes underline */
+    color: inherit;            /* makes link same color as surrounding text */
+}
+
+a.subtle-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #999;  /* subtle grey underline */
+    padding-bottom: 2px;
+}
+
+a.subtle-link:hover {
+    opacity: 0.85;  /* optional subtle hover effect */
+}
+
+.dash-list {
+    list-style: none;            /* Remove default bullets */
+    padding-left: 0;
+    margin: 0;
+}
+
+.dash-list li {
+    position: relative;
+    padding-left: 20px;          /* Space for the dash */
+    margin-bottom: 14px;         /* Controls vertical spacing between items */
+}
+
+.dash-list li::before {
+    content: "-";                /* Custom bullet */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 6px 12px;
+    border: .5px solid black;
+    font-family: Times, serif;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+    z-index: 1000;  
+}
+
+.back-button:hover {
+    background-color: #f0f0f0; /* Optional subtle hover effect */
+}
+
+
+
+        /* Underline only Endeavors section links */
+        .endeavors a {
+            text-decoration: underline;
+        } */
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                font-size: 17px;
+                padding: 50px 15px 30px 15px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 19px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Publishings I like</h1>
+
+         <a href="index.html" class="back-button">Home</a>
+
+        <ul class="dash-list">
+            <li>How to Win Friends and Influence People (Dale Carnegie)</li>
+            <li>Never Split the Difference (Chris Voss)</li>
+            <li>How To Be Successful (Sam Altman)</li>
+            <li>Shoe Dog (Phil Knight)</li>
+            <li>Keep Your Identity Small (Paul Graham)</li>
+            <li>You Could Just Choose Optimism (Carter Mark and Jordan Gonen)</li>
+        </ul>
+
+            
+
+       
+        
+        <p></p>
+    </div>
+</body>
+
+
+</html>
