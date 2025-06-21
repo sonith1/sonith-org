@@ -37,8 +37,12 @@ p {
 }
 
 a {
-    text-decoration: none;     /* removes underline */
+    text-decoration: underline;     /* removes underline */
     color: inherit;            /* makes link same color as surrounding text */
+}
+
+a:hover {
+    text-decoration: underline; /* keeps underline on hover too */
 }
 
 a.subtle-link {
@@ -52,7 +56,6 @@ a.subtle-link {
 a.subtle-link:hover {
     border-bottom-color: #999; /* only shows on hover */
 }
-
 
 
         /* Underline only Endeavors section links */
