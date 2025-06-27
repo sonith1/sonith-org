@@ -53,13 +53,26 @@ a:hover {
     transition: opacity 0.2s ease, border-bottom-color 0.2s ease;
 } */
 
-a.subtle-link {
+/* a.subtle-link {
     color: inherit;
     text-decoration: underline;
 }
 
 a.subtle-link:hover {
     border-bottom-color: #999;
+}
+ */
+
+a.subtle-link {
+    color: inherit;
+    text-decoration: none; /* Remove default underline */
+    border-bottom: 1px solid #bbb; /* Subtle grey underline */
+    padding-bottom: 1px; /* Slight spacing */
+    transition: border-color 0.2s ease;
+}
+
+a.subtle-link:hover {
+    border-bottom-color: #666; /* Darker on hover for visual feedback */
 }
 
 
